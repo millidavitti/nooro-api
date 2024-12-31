@@ -2,7 +2,9 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
 export async function getTasks() {
-	return await prisma.task.findMany();
+	return await prisma.task.findMany({
+		orderBy: { updatedAt: "desc" },
+	});
 }
 
 export async function createTask(data) {
