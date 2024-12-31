@@ -1,9 +1,3 @@
-Here’s a refined version of your instructions with clearer organization and enhanced readability:
-Follow this guide to install MySQL on your machine:  
-[Setting Up a Local MySQL Database](https://www.prisma.io/dataguide/mysql/setting-up-a-local-mysql-database)
-
----
-
 # Setting Up the Express App with MySQL
 
 ## 1. Install MySQL Locally or Use a Cloud Service
