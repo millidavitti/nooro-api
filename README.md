@@ -14,7 +14,7 @@ For a seamless experience, use Aiven to set up a free MySQL database:
 
 ### Option 3: Use the deployed version
 
-For an even more seamless experience, use can use the deployed API:  
+For an even more seamless experience, you can use the deployed API:  
 [Nooro Task API](https://nooro-api-cxa5e9bacmajc7ay.eastus-01.azurewebsites.net/v1/tasks)
 
 ---
