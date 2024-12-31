@@ -3,7 +3,7 @@ const prisma = new PrismaClient();
 
 export async function getTasks() {
 	return await prisma.task.findMany({
-		orderBy: { updatedAt: "desc" },
+		orderBy: { createdAt: "desc" },
 	});
 }
 
